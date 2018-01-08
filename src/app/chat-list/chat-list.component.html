@@ -1,4 +1,10 @@
 <app-header></app-header>
-<p>
-  chat-list works!
-</p>
+<ul class="chat-list">
+  <li *ngFor="let chat of chatList">
+   <a>
+    <span class="badge">{{chat.id}}</span> {{chat.name}}
+   </a>
+    <!-- <button class="delete" title="delete hero"
+(click)="delete(chat)">x</button> -->
+  </li>
+</ul>
