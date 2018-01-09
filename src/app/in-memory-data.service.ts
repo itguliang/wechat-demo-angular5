@@ -78,7 +78,7 @@ export class InMemoryDataService implements InMemoryDbService {
         msg:'你好，我是Dynama～'
       },{
         flow:'out',
-        msg:'哈哈我是IT姑凉'
+        msg:'我是IT姑凉'
       }]
     },{
       id: 18, name: 'DrIQ',photo:"assets/lufei.jpg",date:1515467235585,
