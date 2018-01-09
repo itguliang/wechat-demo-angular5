@@ -1,13 +1,14 @@
 <app-header></app-header>
 <ul class="content chat-list">
-  <li *ngFor="let chat of chatList">
+  <li *ngFor="let chat of chatList" routerLink="/chatdetail/{{chat.id}}">
     <img [src]="chat.photo">
     <div>
     	<span class="name">{{chat.name}}</span>
     	<span class="date">{{chat.date|date: 'yyyy-MM-dd'}}</span>
-    	<p>哈哈哈哈哈哈</p>
+    	<p>{{chat.msgs[chat.msgs.length-1].msg}}</p>
     </div>
     <!-- <button class="delete" title="delete hero"
 (click)="delete(chat)">x</button> -->
   </li>
 </ul>
+<app-tabs></app-tabs>

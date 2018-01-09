@@ -3,4 +3,5 @@ export class Chat{
   name: string;
   photo: string;
   date:number;
+  msgs:any[];
 }

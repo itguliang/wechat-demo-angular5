@@ -16,6 +16,8 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { DiscoverComponent } from './discover/discover.component';
 import { AccountComponent } from './account/account.component';
 import { HeaderComponent } from './header/header.component';
+import { ChatDetailComponent } from './chat-detail/chat-detail.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { HeaderComponent } from './header/header.component';
     ContactsComponent,
     DiscoverComponent,
     AccountComponent,
-    HeaderComponent
+    HeaderComponent,
+    ChatDetailComponent,
+    TabsComponent
   ],
   imports: [
     BrowserModule,
